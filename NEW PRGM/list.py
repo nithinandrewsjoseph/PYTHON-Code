@@ -1,0 +1,41 @@
+list1=['grapes','orange',1,2]
+print(type(list1))
+print(list1[0])
+print(list1[-1])
+print(list1[1:3])
+list1[0]='cherry'
+print(list1)
+list1[1:3]='mango',2
+print(list1)
+list1.insert(2,'apple')
+print(list1)
+list1.append(5)
+print(list1)
+list2=[1,2,3]
+list1.extend(list2)
+print(list1)
+list1.remove(2)
+print(list1)
+list1.pop(1)
+print(list1)
+list1.pop()
+print(list1)
+list1.clear()
+print(list1)
+del list1
+print(list1)
+#print
+c=[1,5,7,8,4]
+for i in c:
+    print(i)
+#sort
+    c.sort()
+    print(c)
+
+    c.sort(reverse=True)
+    print(c)
+    d=c.copy()
+    print(d)
+    e=list(c)
+    print(e)
+    x=a+c

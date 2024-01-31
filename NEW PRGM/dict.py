@@ -1,0 +1,36 @@
+student={'name':['anoop','anu'],'age':20,'place':'kottayam'}
+print(student)
+print(student['name'])
+print(len(student))
+x=student.get('age')
+print(x)
+y=student.keys()
+print(y)
+z=student.values()
+print(z)
+a=student.items()
+print(a)
+student['age']=23
+print(student)
+student.update({'age':25})
+print(student)
+student.update({'course':'DA'})
+print(student)
+student['mark']=22
+print(student)
+student.pop('age')
+print(student)
+student.popitem()
+print(student)
+del student['course']
+print(student)
+student.clear()
+print(student)
+student1={'name':['anoop','anu'],'age':20,'place':'kottayam'}
+student2=student1.copy()
+print(student2)
+class1={'child1':{'name':'anu','age':23},
+        'child2':{'name':'manu','age':23}
+        }
+print(class1)
+print(class1['child1']['age'])
